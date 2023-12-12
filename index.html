@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Thorium Browser</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="containerHeader">
+            <h1>Thorium</h1>
+            <img id="bubbles" src="bubblesImg.svg" alt="Bubbles">
+        </div>
+    </header>
+
+    <div class="containerBodyOne">
+        <img src="thoriumImg.svg" alt="logo">
+        <h1>
+            <span class="typer" data-delay="40" data-words="Thorium - the fastest browser on Earth." data-loop="false" data-colors="#575757"></span>
+            <span class="cursor" id="main" data-owner="main"></span>
+        </h1>
+    </div>
+
+    <div class="containerBodyTwo">
+        <div class="info">
+            <p><a href="https://www.chromium.org/Home/" target="_blank">Chromium</a> fork for Linux, Windows, MacOS, Android, and Raspberry Pi named after <a href="https://en.wikipedia.org/wiki/Thorium" target="_blank">radioactive element</a> No. 90.</p>
+
+            <img class="line" src="line.png" alt="">
+
+            <div class="highlights">
+                <h1><b>Highlights</b></h1> <img src="bulb.svg" alt="logo" class="bulb">
+
+                <ul>
+                    <li>Compiler optimizations include SSE4.2, AVX, AES, and modifications to CFLAGS, LDFLAGS, thinLTO flags, import_instr_limit flags, and PGO, as well as other compiler flags.</li>
+                    <li>LLVM LOOP optimizations as -mllvm flags</li>
+                    <li>Learn more about these compiler optimizations and how they work <a href="https://thorium.rocks/optimizations" target="_blank"><b>Here.</b></a></li>
+                    <li>UI Changes and Patches for Linux and Windows that fix bugs, enhance usability, and strengthen privacy/security.</li>
+                </ul>
+
+                <p>This nets a <a href="https://thorium.rocks/performance" target="_blank">8-38% performance</a> improvement over vanilla Chromium, depending on the benchmark and OS. 
+                    See <a href="https://github.com/Alex313031/Thorium/blob/main/infra/PATCHES.md" target="_blank">PATCHES.md</a> for a detailed overview of all modifications compared to vanilla Chromium regarding performance, 
+                    security and useability.</p>
+
+                <img src="flying.png" class="flying" id="flying" alt=""/>
+                
+                <div class="links">
+                    <h1><b>Links</b></h1> <img src="bulb.svg" alt="logo" class="bulb">
+                    <img class="line" src="line.png" alt="">
+
+                    <p><em>Website under construction.</em> Meanwhile,
+                         you can check out the main repository, read the developer blog, 
+                         view the release notes, or download releases for:</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
+</body>
+</html>
